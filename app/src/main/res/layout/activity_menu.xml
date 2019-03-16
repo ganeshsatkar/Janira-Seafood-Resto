@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/home_bg1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_gravity="center"
+
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/setting_LineColor"></View>
+
+
+
+
+
+            <LinearLayout
+                android:layout_margin="5dp"
+                android:background="#d7df92"
+                android:id="@+id/lbl00"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:padding="10dp"
+                android:clickable="true"
+                android:onClick="foodmenu"
+                >
+
+                <ImageView
+                    android:id="@+id/img10"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/food10"
+                    android:tint="#00000000"
+                    android:layout_gravity="left|center"/>
+                <RelativeLayout
+                    android:background="#d7df92"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="left|center">
+                    <TextView
+                        android:id="@+id/txt20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Food Menu"
+                        android:textStyle="bold"
+                        android:textAllCaps="true"
+                        android:textSize="25sp"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="#000000"/>
+
+                </RelativeLayout>
+            </LinearLayout>
+
+
+
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/setting_LineColor"></View>
+
+
+
+            <LinearLayout
+                android:layout_margin="5dp"
+                android:background="#d7df92"
+                android:id="@+id/lbl2"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:padding="10dp"
+                android:clickable="true"
+                android:onClick="seafoodmenu"
+                >
+
+                <ImageView
+                    android:id="@+id/img1"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/banner5"
+                    android:tint="#00000000"
+                    android:layout_gravity="left|center"/>
+
+                <RelativeLayout
+                    android:background="#d7df92"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="left|center">
+                    <TextView
+                        android:id="@+id/txt2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sea Food Menu"
+                        android:textSize="25sp"
+                        android:textAllCaps="true"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="15dp"
+                        android:textColor="#000000"/>
+
+                </RelativeLayout>
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/setting_LineColor"></View>
+
+
+
+
+
+
+
+            <LinearLayout
+                android:id="@+id/lbl4"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:padding="10dp"
+                android:clickable="true"
+                android:onClick="barfoodmenu"
+                android:layout_margin="5dp"
+                android:background="#d7df92">
+
+                <ImageView
+                    android:background="@drawable/seafoodmenu4"
+                    android:id="@+id/img2"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/barmenu7"
+                    android:tint="#00000000"
+                    android:layout_gravity="left|center"/>
+
+                <RelativeLayout
+                    android:background="#d7df92"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="left|center">
+
+                    <TextView
+                        android:id="@+id/txt5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Bar Food Menu"
+                        android:textSize="25sp"
+                        android:textAllCaps="true"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="15dp"
+                        android:textColor="#000000" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/setting_LineColor"></View>
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>
+
+
+<!--
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="grdpinfotech.ganeshsatkar.janjira.Menu">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:paddingBottom="20dp"
+            android:background="#e7e7e1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="30dp"
+            android:orientation="vertical">
+
+
+
+
+            <ImageButton
+                android:scaleType="fitCenter"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:id="@+id/bfoodmenu"
+                android:layout_marginTop="7dp"
+                android:src="@drawable/aboutjanjira"
+                tools:ignore="ContentDescription" />
+
+            <Button
+                android:id="@+id/foodmenu"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="1dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:background="#cddddf"
+                android:text="Food menu  "/>
+
+
+
+
+            <Button
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="15dp"
+                android:background="#080808"
+                />
+
+
+            <ImageButton
+                android:scaleType="fitCenter"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:id="@+id/bfoodmenu1"
+                android:layout_marginTop="7dp"
+                android:src="@drawable/benefits"
+                tools:ignore="ContentDescription" />
+
+            <Button
+                android:id="@+id/foodmenu1"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="1dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:background="#cddddf"
+                android:text="Sea food menu "/>
+
+
+            <Button
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="15dp"
+                android:background="#080808"
+                />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
+-->

@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_margin="3dp"
+        android:background="#d7df92"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/setting_LineColor"></View>
+
+
+            <LinearLayout
+                android:id="@+id/lbl00"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:padding="10dp"
+                android:clickable="true"
+                android:onClick="interior"
+                android:layout_margin="5dp"
+                android:background="#9c8112">
+
+                <ImageView
+                    android:id="@+id/img10"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/interior1"
+                    android:tint="#00000000"
+                    android:layout_gravity="left|center"/>
+                <RelativeLayout
+                    android:background="#9c8112"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="left|center">
+                    <TextView
+                        android:id="@+id/txt20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Janjira Interior"
+                        android:textStyle="bold"
+                        android:textAllCaps="true"
+                        android:textSize="22sp"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="#000000"/>
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/setting_LineColor"></View>
+
+
+
+
+
+
+
+
+
+            <LinearLayout
+                android:id="@+id/lbl2"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:padding="10dp"
+                android:clickable="true"
+                android:onClick="deliciousfood"
+                android:layout_margin="5dp"
+                android:background="#9c8112">
+
+                <ImageView
+                    android:id="@+id/img1"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/b6"
+                    android:tint="#00000000"
+                    android:layout_gravity="left|center"/>
+
+                <RelativeLayout
+                    android:background="#9c8112"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="left|center">
+                    <TextView
+                        android:id="@+id/txt2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Delicious Food"
+                        android:textSize="22sp"
+                        android:textAllCaps="true"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="15dp"
+                        android:textColor="#000000"/>
+
+                </RelativeLayout>
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/setting_LineColor"></View>
+
+
+
+
+
+
+            <LinearLayout
+                android:id="@+id/lbl4"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:padding="10dp"
+                android:clickable="true"
+                android:onClick="celebrities"
+                android:layout_margin="5dp"
+                android:background="#9c8112">
+
+                <ImageView
+                    android:id="@+id/img2"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/celebrities15"
+                    android:tint="#00000000"
+                    android:layout_gravity="left|center"/>
+
+                <RelativeLayout
+                    android:background="#9c8112"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="left|center">
+
+                    <TextView
+                        android:id="@+id/txt5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Celebrities"
+                        android:textSize="22sp"
+                        android:textAllCaps="true"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="15dp"
+                        android:textColor="#000000" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/setting_LineColor"></View>
+
+
+
+
+            <LinearLayout
+                android:id="@+id/lbl5"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:padding="10dp"
+                android:clickable="true"
+                android:onClick="guestfeedback"
+                android:layout_margin="5dp"
+                android:background="#9c8112">
+
+                <ImageView
+                    android:background="@drawable/aboutjanjira"
+                    android:id="@+id/img22"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/feedback2"
+                    android:tint="#00000000"
+                    android:layout_gravity="left|center"/>
+
+                <RelativeLayout
+                    android:background="#9c8112"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="left|center">
+
+                    <TextView
+                        android:id="@+id/txt55"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Guest Feedback"
+                        android:textSize="22sp"
+                        android:textAllCaps="true"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="15dp"
+                        android:textColor="#000000" />
+                </RelativeLayout>
+
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/setting_LineColor"></View>
+
+
+
+
+
+            <LinearLayout
+                android:id="@+id/lbl34"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:padding="10dp"
+                android:clickable="true"
+                android:onClick="news"
+                android:layout_margin="5dp"
+                android:background="#9c8112">
+
+                <ImageView
+                    android:background="@drawable/foodmenu1"
+                    android:id="@+id/img244"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/news1"
+                    android:tint="#00000000"
+                    android:layout_gravity="left|center"/>
+
+                <RelativeLayout
+                    android:background="#9c8112"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="left|center">
+
+                    <TextView
+                        android:id="@+id/txt555"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="News"
+                        android:textSize="22sp"
+                        android:textAllCaps="true"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="15dp"
+                        android:textColor="#000000" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/setting_LineColor"></View>
+
+
+
+
+            <LinearLayout
+                android:id="@+id/lsbl34"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:padding="10dp"
+                android:clickable="true"
+                android:onClick="video"
+                android:layout_margin="5dp"
+                android:background="#9c8112">
+
+                <ImageView
+                    android:background="@drawable/celebrities6"
+                    android:id="@+id/img2s44"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/youtubeicon"
+                    android:tint="#00000000"
+                    android:layout_gravity="left|center"/>
+
+                <RelativeLayout
+                    android:background="#9c8112"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="left|center">
+
+                    <TextView
+                        android:id="@+id/txt55s5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Video"
+                        android:textSize="22sp"
+                        android:textAllCaps="true"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="15dp"
+                        android:textColor="#000000" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/setting_LineColor"></View>
+
+            <LinearLayout
+                android:id="@+id/morephoto"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:padding="10dp"
+                android:clickable="true"
+                android:onClick="morephoto"
+                android:layout_margin="5dp"
+                android:background="#9c8112">
+
+                <ImageView
+                    android:background="@drawable/baghome"
+                    android:id="@+id/im1"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/facebook"
+                    android:tint="#00000000"
+                    android:layout_gravity="left|center"/>
+
+                <RelativeLayout
+                    android:background="#9c8112"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="left|center">
+                    <TextView
+                        android:id="@+id/tx2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="For More Photos"
+                        android:textSize="22sp"
+                        android:textAllCaps="true"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="15dp"
+                        android:textColor="#000000"/>
+
+                </RelativeLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>
+
+

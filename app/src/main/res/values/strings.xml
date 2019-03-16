@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Janjira Sea Food Resto </string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="action_settings">Settings</string>
+
+
+    <string name="abouttext"> Janjira Sea Food was started by Mr. Vilas Chorge in 1996. You can be sure at Janjira.
+        The Food you will Eat will be fit for a janjira king.
+        \n\n Our special receipies unique to janjira. We have been perfected by our chef.
+        And have originated in the kitchen of Sea Food Emperors.
+        At Janjira It is our food ingredient all item is branded.
+        \n <b> Guest Satisfaction</b> is our aim.
+    </string>
+
+    <string name="benifits">
+
+ \t 150 grams serving of fish can provide 50% - 60% daily protein needs.
+\n\n All Seafood are low in fat.
+\n\n Majority of fishes are low in cholesterol
+\n\n Having of seafood reduces heart diseases
+\n\n Fish are high in minerals, ioding and selenium which keeps the body running smoothly
+\n\n Seafood is good for brain development
+        \n\n Fish also contains <i> Vitamin A </i> which is good for skin and eyes.
+    </string>
+
+
+    <string name="welcommsg">Welcome to \n Janjira Sea Food Resto and Bar</string>
+    <string name="tagline">We are Janjira Sea Food Resto,always best in taste.
+        \n\nWe serve yummy, tasty food to add crunchiness in your life.</string>
+    <string name="marathitag">जंजिरा सी फूड मध्ये तुमचे स्वागत आहे.</string>
+
+
+</resources>

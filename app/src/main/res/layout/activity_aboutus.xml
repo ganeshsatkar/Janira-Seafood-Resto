@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bag1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:paddingBottom="20dp"
+            android:background="#e7e7e1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+
+            android:orientation="vertical">
+
+
+            <Button
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:background="#cddddf"
+                android:text="Hotel Janjira "/>
+
+            <ImageView
+                android:scaleType="fitCenter"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:id="@+id/imageViewd"
+                android:layout_marginTop="3dp"
+                android:src="@drawable/aboutjanjira"
+                tools:ignore="ContentDescription" />
+
+
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/abouttext"
+                android:textSize="15sp"/>
+
+
+
+            <Button
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_marginTop="15dp"
+                android:background="#080808"
+                />
+            <Button
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:background="#cddddf"
+                android:text="Benefits of Sea Food on human body "/>
+
+
+            <ImageView
+                android:scaleType="fitCenter"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+
+                android:layout_marginTop="1dp"
+                android:src="@drawable/b6"
+                tools:ignore="ContentDescription" />
+
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/benifits"
+
+                android:textSize="15sp"/>
+
+
+            <Button
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="15dp"
+                android:background="#080808"
+                />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>
+
+
+

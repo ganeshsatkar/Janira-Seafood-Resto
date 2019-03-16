@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+            <ImageView
+                android:foregroundGravity="center"
+                android:layout_gravity="center"
+                android:background="#f2000000"
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="470dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1dp"
+                android:src="@drawable/foodmenu1"/>
+
+            <ImageView
+                android:foregroundGravity="center"
+                android:layout_gravity="center"
+                android:background="#f2000000"
+                android:layout_width="match_parent"
+                android:layout_height="470dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/foodmenu2"/>
+
+            <ImageView
+                android:foregroundGravity="center"
+                android:layout_gravity="center"
+                android:background="#f2000000"
+                android:layout_width="match_parent"
+                android:layout_height="470dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/foodmenu3"/>
+
+            <ImageView
+                android:foregroundGravity="center"
+                android:layout_gravity="center"
+                android:background="#f2000000"
+                android:layout_width="match_parent"
+                android:layout_height="470dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/foodmenu4"/>
+
+            <ImageView
+                android:foregroundGravity="center"
+                android:layout_gravity="center"
+                android:background="#f2000000"
+                android:layout_width="match_parent"
+                android:layout_height="470dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/foodmenu5"/>
+            <ImageView
+                android:foregroundGravity="center"
+                android:layout_gravity="center"
+                android:background="#f2000000"
+                android:layout_width="match_parent"
+                android:layout_height="470dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/foodmenu6"/>
+
+            <ImageView
+                android:foregroundGravity="center"
+                android:layout_gravity="center"
+                android:background="#f2939090"
+                android:layout_width="match_parent"
+                android:layout_height="470dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/foodmenu7"/>
+
+            <ImageView
+                android:foregroundGravity="center"
+                android:layout_gravity="center"
+                android:background="#f2000000"
+                android:layout_width="match_parent"
+                android:layout_height="470dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/foodmenu8"/>
+
+            <ImageView
+                android:foregroundGravity="center"
+                android:layout_gravity="center"
+                android:background="#f2000000"
+                android:layout_width="match_parent"
+                android:layout_height="470dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/foodmenu9"/>
+            <ImageView
+                android:foregroundGravity="center"
+                android:layout_gravity="center"
+                android:background="#f2000000"
+                android:layout_width="match_parent"
+                android:layout_height="470dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/foodmenu10"/>
+
+            <ImageView
+                android:foregroundGravity="center"
+                android:layout_gravity="center"
+                android:background="#f2939090"
+                android:layout_width="match_parent"
+                android:layout_height="470dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/foodmenu11"/>
+
+            <ImageView
+                android:foregroundGravity="center"
+                android:layout_gravity="center"
+                android:background="#f2000000"
+                android:layout_width="match_parent"
+                android:layout_height="470dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/seafoodmenu4"/>
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</RelativeLayout>
